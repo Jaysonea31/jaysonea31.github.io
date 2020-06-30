@@ -183,11 +183,11 @@ var sliderValue = [0 ,8,10,12,14,16,18,20,'',24]; // our dynamic array
     
        break;
          case 18:
-         document.querySelector('#speed-results').innerHTML = "160 RPM";
+         document.querySelector('#speed-results').innerHTML = "88 RPM";
          document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
          document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
          document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
-         document.querySelector('#voltage4').innerHTML = "";         
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
          document.querySelector('#amps1').innerHTML = "13-11.4 A";
          document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
          document.querySelector('#amps3').innerHTML = "3.9 A";
@@ -199,35 +199,35 @@ var sliderValue = [0 ,8,10,12,14,16,18,20,'',24]; // our dynamic array
     
        break;
          case 20:
-         document.querySelector('#speed-results').innerHTML = "160 RPM";
+         document.querySelector('#speed-results').innerHTML = "78 RPM";
          document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
          document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
          document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
-         document.querySelector('#voltage4').innerHTML = "";         
-         document.querySelector('#amps1').innerHTML = "8.8-7.7 A";
-         document.querySelector('#amps2').innerHTML = "4.8-3.9 A";
-         document.querySelector('#amps3').innerHTML = "2.4-2.5 A";
-         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "13.0-11.4 A";
+         document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
+         document.querySelector('#amps3').innerHTML = "3.9 A";
+         document.querySelector('#amps4').innerHTML = "2.3 A";
          document.querySelector('#circuit1').innerHTML = "30 A";
          document.querySelector('#circuit2').innerHTML = "20 A";
          document.querySelector('#circuit3').innerHTML = "10 A";  
-         document.querySelector('#circuit4').innerHTML = "";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
     
        break;
          case 24:
-         document.querySelector('#speed-results').innerHTML = "160 RPM";
+         document.querySelector('#speed-results').innerHTML = "65 RPM";
          document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
          document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
          document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
-         document.querySelector('#voltage4').innerHTML = "";         
-         document.querySelector('#amps1').innerHTML = "8.8-7.7 A";
-         document.querySelector('#amps2').innerHTML = "4.8-3.9 A";
-         document.querySelector('#amps3').innerHTML = "2.4-2.5 A";
-         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "13.0-11.4 A";
+         document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
+         document.querySelector('#amps3').innerHTML = "3.9 A";
+         document.querySelector('#amps4').innerHTML = "2.3 A";
          document.querySelector('#circuit1').innerHTML = "30 A";
          document.querySelector('#circuit2').innerHTML = "20 A";
          document.querySelector('#circuit3').innerHTML = "10 A";  
-         document.querySelector('#circuit4').innerHTML = "";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
     
        break;
   default:
@@ -253,7 +253,196 @@ var sliderValue = [0 ,8,10,12,14,16,18,20,'',24]; // our dynamic array
      
    }
   
-   
+   else if(fanType == "PFX3.0 Plus"){
+     
+     switch(fanSize){
+         
+         
+       case 0:
+         document.querySelector('#speed-results').innerHTML = "";
+         document.querySelector('#voltage1').innerHTML = "";
+         document.querySelector('#voltage2').innerHTML = "";
+         document.querySelector('#voltage3').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "";
+         document.querySelector('#amps1').innerHTML = "";
+         document.querySelector('#amps2').innerHTML = "";
+         document.querySelector('#amps3').innerHTML = "";
+         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#circuit1').innerHTML = "";
+         document.querySelector('#circuit2').innerHTML = " ";
+         document.querySelector('#circuit3').innerHTML = " ";  
+         document.querySelector('#circuit4').innerHTML = " ";
+
+    // code block
+       break;
+         
+         case '':
+         document.querySelector('#speed-results').innerHTML = "";
+         document.querySelector('#voltage1').innerHTML = "";
+         document.querySelector('#voltage2').innerHTML = "";
+         document.querySelector('#voltage3').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "";
+         document.querySelector('#amps1').innerHTML = "";
+         document.querySelector('#amps2').innerHTML = "";
+         document.querySelector('#amps3').innerHTML = "";
+         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#circuit1').innerHTML = "";
+         document.querySelector('#circuit2').innerHTML = "";
+         document.querySelector('#circuit3').innerHTML = "";  
+         document.querySelector('#circuit4').innerHTML = "";
+    // code block
+       break;
+         
+        case 8: 
+         document.querySelector('#speed-results').innerHTML = "N/A";
+         document.querySelector('#voltage1').innerHTML = "";
+         document.querySelector('#voltage2').innerHTML = "";
+         document.querySelector('#voltage3').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "";
+         document.querySelector('#amps1').innerHTML = "";
+         document.querySelector('#amps2').innerHTML = "";
+         document.querySelector('#amps3').innerHTML = "";
+         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#circuit1').innerHTML = "";
+         document.querySelector('#circuit2').innerHTML = "";
+         document.querySelector('#circuit3').innerHTML = "";  
+         document.querySelector('#circuit4').innerHTML = "";
+    // code block
+       break;
+      case 10:
+         document.querySelector('#speed-results').innerHTML = "N/A";
+         document.querySelector('#voltage1').innerHTML = "";
+         document.querySelector('#voltage2').innerHTML = "";
+         document.querySelector('#voltage3').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "";
+         document.querySelector('#amps1').innerHTML = "";
+         document.querySelector('#amps2').innerHTML = "";
+         document.querySelector('#amps3').innerHTML = "";
+         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#circuit1').innerHTML = "";
+         document.querySelector('#circuit2').innerHTML = "";
+         document.querySelector('#circuit3').innerHTML = "";  
+         document.querySelector('#circuit4').innerHTML = "";
+    
+       break;
+         case 12:
+         document.querySelector('#speed-results').innerHTML = "140 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "12.4-10.7 A";
+         document.querySelector('#amps2').innerHTML = "6.1-5.6 A";
+         document.querySelector('#amps3').innerHTML = "3.5-3.3 A";
+         document.querySelector('#amps4').innerHTML = "1.9 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+         case 14:
+         document.querySelector('#speed-results').innerHTML = "118 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "12.4-10.7 A";
+         document.querySelector('#amps2').innerHTML = "6.1-5.6 A";
+         document.querySelector('#amps3').innerHTML = "3.5-3.3 A";
+         document.querySelector('#amps4').innerHTML = "1.9 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+         case 16:
+         document.querySelector('#speed-results').innerHTML = "99 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "12.4-10.7 A";
+         document.querySelector('#amps2').innerHTML = "6.1-5.6 A";
+         document.querySelector('#amps3').innerHTML = "3.5-3.3 A";
+         document.querySelector('#amps4').innerHTML = "1.9 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+         case 18:
+         document.querySelector('#speed-results').innerHTML = "89 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "13-11.4 A";
+         document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
+         document.querySelector('#amps3').innerHTML = "3.9 A";
+         document.querySelector('#amps4').innerHTML = "2.3 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+         case 20:
+         document.querySelector('#speed-results').innerHTML = "78 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "13.0-11.4 A";
+         document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
+         document.querySelector('#amps3').innerHTML = "3.9 A";
+         document.querySelector('#amps4').innerHTML = "2.3 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+         case 24:
+         document.querySelector('#speed-results').innerHTML = "62 RPM";
+         document.querySelector('#voltage1').innerHTML = "200-240 V, 1Φ";
+         document.querySelector('#voltage2').innerHTML = "200-240 V, 3Φ";
+         document.querySelector('#voltage3').innerHTML = "400-480 V, 3Φ";
+         document.querySelector('#voltage4').innerHTML = "575-600 V, 3Φ";         
+         document.querySelector('#amps1').innerHTML = "13.0-11.4 A";
+         document.querySelector('#amps2').innerHTML = "7.6-6.9 A";
+         document.querySelector('#amps3').innerHTML = "3.9 A";
+         document.querySelector('#amps4').innerHTML = "2.3 A";
+         document.querySelector('#circuit1').innerHTML = "30 A";
+         document.querySelector('#circuit2').innerHTML = "20 A";
+         document.querySelector('#circuit3').innerHTML = "10 A";  
+         document.querySelector('#circuit4').innerHTML = "10 A";  
+    
+       break;
+  default:
+         document.querySelector('#speed-results').innerHTML = "";
+         document.querySelector('#voltage1').innerHTML = "";
+         document.querySelector('#voltage2').innerHTML = "";
+         document.querySelector('#voltage3').innerHTML = "";
+         document.querySelector('#voltage4').innerHTML = "";
+         document.querySelector('#amps1').innerHTML = "";
+         document.querySelector('#amps2').innerHTML = "";
+         document.querySelector('#amps3').innerHTML = "";
+         document.querySelector('#amps4').innerHTML = "";
+         document.querySelector('#circuit1').innerHTML = "";
+         document.querySelector('#circuit2').innerHTML = " ";
+         document.querySelector('#circuit3').innerHTML = " ";  
+         document.querySelector('#circuit4').innerHTML = " ";
+        
+    // code block 
+         
+     }
+     
+     
+     
+   }
    
    
    

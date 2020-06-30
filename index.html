@@ -12,49 +12,52 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/e5d760b677.js" crossorigin="anonymous"></script>
 
   <!--  Styles  -->
  <link rel="stylesheet" href="styles/index.processed.css">
 </head>
 
 <body>
-  <div id="page">
+  
     <!--
    TOP OF PAGE
 -->
 
-    <!--
-   NAV BAR
--->
+
     <!--
    Page Content
 -->
-
+    <div id="page">
     <section id="section0">
-      <div id="button-container" class="container-fluid text-center">
+      <div class="container-fluid text-center">
         <h1>PFX 3.0</h1>
         <div id="video-container" class="container">
           <iframe id="pfx-video" src="//fast.wistia.net/embed/iframe/0ka5gd9xs7" scrolling="no" class="container-fluid wistia_embed embed-responsive-item" name="wistia_embed"></iframe>
         </div>
+        </div>
+        <div id="button-container" class="container-fluid text-center">
+       
+          
         
-        <div class="row">
-        <div class="col-sm-6 col-lg main-button">
-        <button id="homebutton" type="button" class="" data-toggle="modal" data-target="#section-one">Primary</button>
-        </div>
-         <div class="col-sm-6 col-lg main-button"> 
-         <button id="tour-button" type="button" class="" data-toggle="modal" data-target="#section-two">Tour The PFX</button>
-        </div>
-          <div class="col-sm-6 col-lg main-button">
-          <button id="doc-button" type="button" class="" data-toggle="modal" data-target="#section-three">Documentation</button>
-        </div>
-          <div class="col-sm-6 col-lg main-button">
-            <button id="motor-options-button" type="button" class="" data-toggle="modal" data-target="#section-four">Motor Options</button>
-       </div>
-          <div class="col-sm-6 col-lg main-button">
-            <button id="specifications-button" type="button" class="" data-toggle="modal" data-target="#section-five">Specifications</button>
-     </div>
+        <button id="homebutton" type="button" class="main-button" data-toggle="modal" data-target="#section-one">Primary</button>
+        
+         
+         <button id="tour-button" type="button" class="main-button" data-toggle="modal" data-target="#section-two">Tour The PFX</button>
+       
+         
+          <button id="doc-button" type="button" class="main-button" data-toggle="modal" data-target="#section-three">Documentation</button>
+        
+          
+            <button id="motor-options-button" type="button" class="main-button" data-toggle="modal" data-target="#section-four">Motor Options</button>
+      
+          
+            <button id="specifications-button" type="button" class="main-button" data-toggle="modal" data-target="#section-five">Specifications</button>
+     
+          
           </div>
-   </div>
+          
+   
     
     
     
@@ -62,10 +65,12 @@
     
     
     </section>
-     <div class= "d-flex align-items-center">
+    </div>
+    
+ 
     <div class="modal fade content-align-center" id="section-one" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div id="info" class="modal-dialog modal-xl align-middle" role="document">
-        <div id="modal-box-one" class="modal-content">
+      <div id="info" class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
           <div class="modal-header">
         
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -73,47 +78,57 @@
         </button>
       </div>
           <div class="modal-body">
-            <div class="container-fluid align-middle">
+            
 
               <!-- *********************
    START CAROUSEL CODE
    *****************************   -->
 
-              <div class="">
                 <div id="carouselContent" class="carousel slide bg-chrome" data-ride="carousel"  data-interval="false">
                   <div class="carousel-inner align-middle text-center" role="listbox">
-                    <div class="carousel-item active content-align-center align-middle">
-                      <div class="container text-center">
-                        <div class="row text-center">
+                    
+                    <div class="carousel-item active">
+                      <div class="carousel-content-container">
+                        <div class="flex-row-title">
                           <h1>POWERFOIL X3.0</h1> 
-                        </div>
-                        <div class="row">
-                          <h2 class="text-center">THE BEST SELLING BIG FAN IN THE WORLD</h2> 
-                          <p>Powerfoil X3.0’s superior hub and airfoil systems deliver unmatched airflow to big spaces, powered by a purpose-built NitroSeal™ drive system and supported by world-class safety features. With premium materials and precise engineering, Powerfoil X3.0 offers the custom fit to improve comfort, safety, and efficiency in any application.</p>
-                        <div class="row">
-                        <div class="col" id="info-images">
-					<img src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/warranty.svg">
-					<img src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/motor.svg">
-					<img src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/diameter.svg">
-					<img src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/mounting.svg">
                           </div>
-				</div>
-                        
-                        
-                        
-                        
+                        <div class="flex-row">
+                           
+                          <p>Powerfoil X3.0’s superior hub and airfoil systems deliver unmatched airflow to big spaces, powered by a purpose-built NitroSeal™ drive system and supported by world-class safety features. With premium materials and precise engineering, Powerfoil X3.0 offers the custom fit to improve comfort, safety, and efficiency in any application.</p>
+                            
+                          </div>
+                        <div class="flex-row-title">
+               
+                        <h1>THE BEST SELLING BIG FAN IN THE WORLD</h1>
+                            
                         </div>
-                      <h1>THE BEST SELLING BIG FAN IN THE WORLD</h1>
+                        <div class="flex-row">
+                          <div class="flex-box-1 list-box">
                       <ul>
                         <li>Best-built, longest lasting, top performing and best selling fan on the planet!</li>
                         <li>Warrantied for 15 years and engineered to last much longer!</li>
                         <li>Most economical HVLS fan on the marketing when full service life is considered.</li>
                       </ul>
+                          </div>
+                            </div>                        
+                        <div class="flex-row">
+					<img class="info-img" src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/warranty.svg" >
+					<img class="info-img" src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/motor.svg" >
+					<img class="info-img" src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/diameter.svg">
+					<img class="info-img" src="https://ba-en-us.s3.amazonaws.com/includes/fans-product/powerfoil-x3-b/mounting.svg">
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    <div class="carousel-item  align-middle ">
+                 
+                    <div class="carousel-item">
+                      <div class="carousel-content-container">
+                          <div class="flex-row-icon">
+                          <i class="fas fa-check fa-5x"></i>
+                      
                       <h2>Perfect Solution For…</h2>
-                      <ul>
+                        </div>   
+                     <div class="list-box">
+                        <ul>
 
                         <li>Customers willing to invest more now to save in the long run</li>
                         <li>Spaces that can’t afford to shut down, such as manufacturing facilities</li>
@@ -124,17 +139,74 @@
                         <li>Customers who have better things to worry about than keeping a fan spinning. Zero Maintenance = Zero Worries</li>
 
                       </ul>
-                    </div>
-                    <div class="carousel-item  align-middle">
-              
-                        <h2>NOT the Best Solution For….</h2>
-                        <ul>
+                        </div>  
+                         <div class="flex-row-icon">                      
+                        <i class="fas fa-ban fa-5x"></i>
+                          
+                        
+                          
+                      
+                     <h2>NOT the Best Solution For…</h2>
+                        </div>
+                          <div class="list-box">   
+                     <ul>
                           <li>Customers whose main deciding factor is price</li>
                           <li>Customers who simply gather quotes for another decision maker</li>
                         </ul>
+                        </div>     
+                    </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="container-fluid carousel-content-container">   
+                      
+                        <div class="flex-row-title"><h2>Features</h2></div>
+                      <div class="flex-row-grid">
+                        <div class="flex-box-4">
+                          
+                        <div class="list-box">
+                          <h3>Stober Features</h3>
+                     <ul>
+                          <li>Custom engineered by Stober, a German company known for their precision gearing.</li>
+                          <li>A perfect partner, Stober’s Maysville, KY factory is only 65 miles from our Lexington factory.</li>
+                        </ul>
+                          </div>
+                          </div>
+                          <div class="flex-box-4">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1598.4929634472355!2d-83.8361260721988!3d38.64518405352141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88415b45e5f0890b%3A0x74a413d6e40b1f45!2sSTOBER%20Drives%20Inc!5e1!3m2!1sen!2sus!4v1593187337412!5m2!1sen!2sus" frameborder="0" style=" min-height: 300px; min-width: 400px; border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                          
+                        </div>
+                    
+                        
+                      
+                        <div class= "flex-box-4">
+                          <img src="https://s3.amazonaws.com/ba-en-us/includes/fans-product/powerfoil-x30/nitroseal-drive-system.jpg" style="max-width:400px; ">
+                                 </div>
+                        
+                        <div class="flex-box-4">
+                          <div class="list-box">
+                          <h3>Nitroseal Gearbox</h3>
+                      <ul>
+
+                        <li>The result was the Nitroseal gearbox – the only purpose-engineered gearbox in the industry.</li>
+                        <li>Gears are oversized, precision-cut, and perfectly matched to reduce friction, heat, and noise.</li>
+                        <li>The cooler operation allows the gearbox to be hermetically sealed (airtight). It is the only non-vented box in the industry.</li>
+                        <li>The offset motor allows for field replacement at ceiling level.</li>
+                        <li>C-face connector allows motor to be replaced independently of the gearbox</li>
+                        <li>Less cost and less downtime</li>
+                        <li>Built with the most high-end components available to ensure premium performance, safety,  and maximum life</li>
+                        <li>Factory-tested at full load prior to shipment</li>
+
+                      </ul>
+                            </div>
+                                 </div>
+                   </div>
+                      </div>
+                          </div>
+                        
                       </div>
                     </div>
-                  </div>
+                  
                   <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
@@ -143,13 +215,13 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only"></span>
 				</a>
-                </div>
-              </div>
+                
+             
             </div>
           </div>
         </div>
       </div>
-    </div>
+    
     <!-- *********************
        END CAROUSEL CODE
    *****************************   -->
@@ -158,21 +230,20 @@
       <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Tour The PFX</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-          <div class
           <div class="modal-body">
-            <div class="container-fluid text-center" id="iframe-container">
-              <h1>TAKE A TOUR OF THE PFX</h1>
-              <div class="row iframe-row text-center">
-                <div class="col iframe-col">
+            <div class="iframe-content-container">
+              
+              <div class="iframe-box">
+                
                   <h2>Main Componants & Features</h2>
                   <iframe class="responsive-iframe" src="https://sketchfab.com/models/cf53a916b5114d0f933d9c6f5615b790/embed?ui_infos=0&ui_watermark=0&ui_watermark_link=0"></iframe>
                 </div>
-                <div class="col iframe-col">
+                <div class="iframe-box">
                   <h2>Redundant Safety Features</h2>
                   <iframe class="responsive-iframe" src="https://sketchfab.com/models/40436358111144e5a2feb33cc33643d6/embed?ui_infos=0&ui_watermark=0&ui_watermark_link=0"></iframe>
                 </div>
@@ -181,26 +252,25 @@
           </div>
         </div>
       </div>
-    </div>
-
+     
     <div class="modal fade" id="section-three" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-full-height modal-xl" role="document">
+      <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
                     <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Documentation</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
           <div class="modal-body">
             <div class="container-fluid">
-              <h3>Documentation</h3>
+             
 
               <!-- *********************
        DOCUMENTATION COLLAPSE
    *****************************   -->
               <div class="accordion" id="accordionExample">
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -239,7 +309,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingTwo">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -266,7 +336,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingThree">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
@@ -282,7 +352,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingFour">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -296,16 +366,31 @@
                       <br>
                       <a href="url">Airfoil Restraint System</a>
                       <br>
-                      <a href="url">LED Light Kit/a>
-								<br>
-								<a href="url">NEMA 4x Enclosure</a>
+                      <a href="url">Wall Mounted VFD</a>
                       <br>
+                      <a href="url">LED Light Kit/a>
+								      <br>
+                        <a href="url">NEMA 4x Enclosure</a>
+                      <br>
+                        
+                        
                       <a href="url">Controller Security Kit</a>
+                      <br>
+                      <a href="url">EMI Filter Kit</a>
+								<br>
+                        <a href="url">Seismic Kit</a>
+								<br>
+								
+                      <a href="url">Occupancy Sensor</a>
+                      <br>
+                        <a href="url">BACnet Adapter</a>
+                      <br>
+                        <a href="url">BAFWorks</a>
                       <br>
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingFive">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -328,7 +413,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingSix">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -351,7 +436,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingSeven">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -374,7 +459,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingEight">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
@@ -397,7 +482,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card black">
                   <div class="card-header" id="headingNine">
                     <h2 class="mb-0">
                       <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
@@ -438,7 +523,7 @@
       <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
            <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Check these out!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -480,40 +565,41 @@ EXPLOSION PROOF</button>
                     </div>
                     <div class="collapse motorOption" id="harshEnvironment" data-parent="#motorOptions">
                       <div class="card card-body">
-                        <img src="/images/pfx-washdown.jpg" width="200" height="200">
+                        <img src="/images/pfx-harsh-environment.jpg" width="200" height="200">
                         <ul>
-                          <li>Available at an additional cost</li>
-                          <li>NEMA IP56 rating for wet environments.</li>
+                          <li>Optional IP55 at additional cost (Basic 6 and Powerfoil 8 are IP55 standard)</li>
+                          <li>Harsh environment boils down to dust and particulate matter present in the air at such levels that could interfere with the controls or motor. The Harsh Environment package upgrades both the VFD and motor to IP55 protection against the entry of dust and low-pressure water jets.</li>
                           <li>Protects personnel from incidental contact with enclosed equipment.</li>
                           <li>Protects from falling or windblown dirt and dust; rain, sleet, snow, and splashing or hose-directed water; corrosion; and external formation of ice</li>
-                          <li>IP Code</li>
-                          <li>Wall-mounted VFD housed in standard NEMA enclosure</li>
-                          <li>Stainless steel and aluminum construction</li>
-                          <li>Stainless steel washdown motor for frequent, intense cleaning</li>
-                          <li>Hermetically sealed NitroSeal gearbox filled with food grade oil and coated with food-duty epoxy</li>
-                          <li>Made from non-porous, non-absorbent, and corrosion-resistant materials</li>
-                          <li>Operating temperature: -30° to 122°F (-34° to 50°C)</li>
-                          <li>Click here for more information!</li>
+                          <li>How do you know if you need it? Ask three questions:</li>
+                          <li>If you put your hand on a guard rail or other similar surface, and it comes back black, you need the Harsh Environment Package.</li>
+                          <li>If you blow your nose and black stuff comes out, you need the Harsh Environment Package.</li>
+                          <li>If it is difficult to see across the facility, it has a fog-like appearance at short distances, you need the Harsh Environment Package.</li>
+               
                         </ul>
 
                       </div>
                     </div>
                     <div class="collapse motorOption" id="explosionProof" data-parent="#motorOptions">
                       <div class="card card-body">
-                        <img src="/images/pfx-washdown.jpg" width="200" height="200">
+                        <img src="/images/Explosion-proof.png" width="200" height="200">
                         <ul>
-                          <li>Available at an additional cost</li>
-                          <li>NEMA IP56 rating for wet environments.</li>
-                          <li>Protects personnel from incidental contact with enclosed equipment.</li>
-                          <li>Protects from falling or windblown dirt and dust; rain, sleet, snow, and splashing or hose-directed water; corrosion; and external formation of ice</li>
-                          <li>IP Code</li>
-                          <li>Wall-mounted VFD housed in standard NEMA enclosure</li>
-                          <li>Stainless steel and aluminum construction</li>
-                          <li>Stainless steel washdown motor for frequent, intense cleaning</li>
-                          <li>Hermetically sealed NitroSeal gearbox filled with food grade oil and coated with food-duty epoxy</li>
-                          <li>Made from non-porous, non-absorbent, and corrosion-resistant materials</li>
-                          <li>Operating temperature: -30° to 122°F (-34° to 50°C)</li>
-                          <li>Click here for more information!</li>
+                          <li>Optional C1D1 at additional cost</li>
+                          <li>PFX and Sweat Bee are currently only fans that offer a C1D1 motor</li>
+                          <li>The VFD and wall controller must be mounted in a separate room because they’re not C1D1.</li>
+                          <li>Class 1, Division 1 locations are areas where ignitable concentrations of flammable gases, vapors, or liquids exist all or some of the time under normal operating conditions</li>
+                          <li>“Explosion Proof” does not mean the whole fan is rated as such–just the motor, which must be able to contain any ignition or explosion within its housing.</li>
+                          <li>The C1D1 motor is manufactured by Marathon Motors (i.e., Regal Beloit America, Inc.</li>
+                          <li>Applications:
+                          <ul>
+                          <li>Petroleum Refining Facilities</li>
+                          <li>Dry Cleaning Plants</li>
+                          <li>Paint Booths</li>
+                          <li>Organic Coating Manufacturing Plants</li>
+                          <li>Similar Military Spaces</li>
+                   
+                          </ul>
+                          </li>
                         </ul>
 
                       </div>
@@ -534,21 +620,22 @@ EXPLOSION PROOF</button>
       <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content">
         <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
+        <h5 class="modal-title">Specification Tool</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
           <div class="modal-body">
             <form>
-              <div class="radio-container"> 
-              <input type="radio" name="PFXRadios" value="PFX3.0" oninput="displayRadioValue()">PFX3.0
-              <input type="radio" name="PFXRadios" value="PFX3.0 Plus" oninput="displayRadioValue()">PFX3.0 Plus
+              <div id="radio-container" class="radio-bar">
+  <div class="radio-div"><input type="radio" id="pfx3" name="PFXRadios" value="PFX3.0" oninput="displayRadioValue()"><label for="pfx3"><span></span></label><div class="label">PFX3.0</div>
+
       
-            <br> 
-              
-              
-              </div> 
+            <br> </div>
+  <div class="radio-div"><input type="radio" id="pfxPro" name="PFXRadios" value="PFX3.0 Plus" oninput="displayRadioValue()"><label for="pfxPro"><span></span></label><div class="label">PFX3.0 Plus</div>
+    <br>
+  </div>
+</div>
               <div class="slidecontainer text-center">
                 <div class="range">
                   <div class="range-slider">
@@ -560,52 +647,62 @@ EXPLOSION PROOF</button>
           </div>
         </div>
               <div id="data-container" class="container-fluid">
-                   <div class="row">
-                  
-                   <table style="width:100%">
-  <tr>
-    <th>Selected Fan</th>
-    <th>Selected Diameter</th>
-    <th>Max Speed</th>
-    <th>Available Input Voltages</th>
-    <th>Full Load Amps</th>
-    <th>Minimum Circuit Size</th>
-  </tr>
-  <tr>
-    <td id="radio-results"></td>
-    <td id="size-results"></td>
-    <td id="speed-results"></td>
-    <td id="voltage1"></td>
-    <td id="amps1"></td>
-    <td id="circuit1"></td>
-  </tr>
-  <tr>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td id="voltage2"></td>
-    <td id="amps2"></td>
-    <td id="circuit2"></td>
-  </tr>
-      <tr>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td id="voltage3"></td>
-    <td id="amps3"></td>
-    <td id="circuit3"></td>
-        </tr> 
-     <tr>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td class="blank-cell"></td>
-    <td id="voltage4"></td>
-    <td id="amps4"></td>
-    <td id="circuit4"></td>
-  </tr>            
-                
-</table>
-                   </div>
+                   
+                  <div class="table-flexbox">
+  <div class="grid-row-2">
+    <div class="output-column">
+      <div class="table-header">Selected Fan
+        </div>
+      <div class="table-block">
+        <div id="radio-results"></div>
+      </div>
+      
+    </div>
+    <div class="output-column">
+      <div class="table-header">Selected Size
+        </div>
+      <div class="table-block">
+        <div id="size-results"></div>
+      </div>
+      
+
+    </div>
+    <div class="output-column">
+      <div class="table-header">Max-Speed
+        </div>
+      <div class="table-block">
+        <div id="speed-results"></div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="grid-row-3">
+    <div class="table-column">
+      <div class="table-header">Available Voltages
+        </div>
+      <div id="voltage1" class="table-row"></div>
+      <div id="voltage2" class="table-row"></div>
+      <div id="voltage3" class="table-row"></div>
+      <div id="voltage4" class="table-row"></div>
+        </div>
+    <div class="table-column">
+      <div class="table-header">Full Load Amps</div>
+      <div class="table-row"><div id="amps1"></div></div>
+      <div class="table-row"><div id="amps2"></div></div>
+      <div class="table-row"><div id="amps3"></div></div>
+      <div class="table-row"><div id="amps4"></div></div>
+        </div>
+    <div class="table-column">
+      <div class="table-header">Min. Circuit Size</div>
+      <div class="table-row"><div id="circuit1"></div></div>
+      <div class="table-row"><div id="circuit2"></div></div>
+      <div class="table-row"><div id="circuit3"></div></div>
+      <div class="table-row"><div id="circuit4"></div></div>
+        </div>
+  </div>
+</div>
+                   
+                   
               </div>
             </form>
       </div>
@@ -613,13 +710,13 @@ EXPLOSION PROOF</button>
         </div>
               </div>
      
+            
 
-
-    <div class="container-fluid text-center" id="footer">
+    <div class="container-fluid" id="footer">
       <p>Footer</p>
     </div>
+  
 
-</body>
 
 <!-- Scripts -->
 <script src="scripts/index.js"></script>
